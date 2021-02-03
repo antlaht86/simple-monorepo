@@ -1,0 +1,21 @@
+{
+  "name": "simple-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lerna": "^3.22.1"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:lib": "lerna run start --scope '@antlaht86/mylib' --parallel --stream",
+    "dev:my-next-app": "lerna run dev --scope '@antlaht86/my-next-app' --stream",
+    "dev:my-react-app": "lerna run start --scope '@antlaht86/my-react-app' --stream"
+  }
+}

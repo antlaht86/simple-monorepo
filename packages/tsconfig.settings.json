@@ -1,0 +1,19 @@
+
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports":true,
+      "declaration": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "module": "CommonJS",
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "strict": true,
+      "target": "ES2018",
+      "types": []
+    },
+  }
+  

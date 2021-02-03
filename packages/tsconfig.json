@@ -1,0 +1,8 @@
+{
+    "files": [],
+    "references": [
+        {"path": "my-react-app"},
+        {"path": "mylib"},
+        {"path": "my-next-app"},
+    ]
+}
