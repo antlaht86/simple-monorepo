@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@antlaht86/mylib": "^0.1.0",
+    "@antlaht86/types": "^0.1.0",
     "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
