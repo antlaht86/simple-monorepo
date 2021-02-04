@@ -12,7 +12,7 @@
   },
   "scripts": {
     "analyze": "size-limit --why",
-    "build": "yarn clean && tsdx build",
+    "build": "tsdx build",
     "clean": "rimraf dist",
     "lint": "tsdx lint",
     "prepare": "tsdx build",

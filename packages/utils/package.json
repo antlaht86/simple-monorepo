@@ -12,7 +12,7 @@
   },
   "scripts": {
     "analyze": "size-limit --why",
-    "build": "yarn clean && tsdx build",
+    "build": "tsdx build",
     "clean": "rimraf dist",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
@@ -20,10 +20,8 @@
     "start": "tsdx watch",
     "test": "tsdx test"
   },
-  "peerDependencies": {},
   "husky": {
-    "hooks": {
-    }
+    "hooks": {}
   },
   "prettier": {
     "printWidth": 80,
@@ -51,5 +49,8 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.1.0",
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@antlaht86/types": "^0.1.0"
   }
 }
