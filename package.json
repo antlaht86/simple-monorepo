@@ -16,7 +16,7 @@
   "scripts": {
     "clean": "rimraf ./tsconfig.tsbuildinfo && lerna run clean --stream",
     "build:lib": "lerna run build --scope '@antlaht86/{utils,mylib,types}' --stream",
-    "dev:lib": "lerna run start --scope '@antlaht86/{utils,mylib,types}' --stream",
+    "dev:lib": "lerna run start --scope '@antlaht86/{utils,mylib,types}' --stream --concurrency 4",
     "dev:my-next-app": "lerna run dev --scope '@antlaht86/my-next-app' --stream",
     "dev:my-react-app": "lerna run start --scope '@antlaht86/my-react-app' --stream"
   }
